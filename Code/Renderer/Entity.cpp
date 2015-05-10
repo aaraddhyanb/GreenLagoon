@@ -122,13 +122,13 @@ void Entity::Update(Camera &i_camera, LightSource &i_light)
 
 	for(int i=0; i<meshCount; ++i)
 	{
-		//std::string texture=mesh[i].getTextureName();
-		//it= materialList.find(texture);
+		std::string texture=mesh[i].getTextureName();
+		it= materialList.find(texture);
 
-		//if(it != materialList.end())
-	//	{
-	//		it->second->Update(i_camera,mesh[i],i_light);
-	//	}
+		if(it != materialList.end())
+		{
+			it->second->Update(i_camera,mesh[i],i_light);
+		}
 		mesh[i].Update();
 	}
 	
