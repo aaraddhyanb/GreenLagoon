@@ -1,0 +1,6 @@
+materialMario
+
+  effect2
+  data/Textures/additiveEffect.png
+
+  alpha 0.5

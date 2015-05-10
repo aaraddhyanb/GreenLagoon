@@ -1,0 +1,4 @@
+entity6
+
+ materialMario
+ data/Meshes/cone.bin

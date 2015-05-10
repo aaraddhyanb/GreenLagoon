@@ -1,0 +1,4 @@
+entity5
+
+ materialMegaman
+ data/Meshes/cone.bin

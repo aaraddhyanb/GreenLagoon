@@ -1,0 +1,38 @@
+﻿Build started 4/26/2014 6:38:38 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\Code\Tools\SpatialPartition\SpatialPartition.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SpatialPartition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\SpatialPartition.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SpatialParititionEntryPoint.cpp SpatialPartition.cpp
+         SpatialPartition.cpp
+     1>c:\users\aaraddhya\documents\visual studio 2010\projects\assignment3.05\code\tools\spatialpartition\spatialpartition.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaraddhya\documents\visual studio 2010\projects\assignment3.05\code\tools\spatialpartition\spatialpartition.cpp(236): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaraddhya\documents\visual studio 2010\projects\assignment3.05\code\tools\spatialpartition\spatialpartition.cpp(342): warning C4018: '<' : signed/unsigned mismatch
+         SpatialParititionEntryPoint.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SpatialPartition.exe.embed.manifest.res" Debug\SpatialPartition_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\lib\vs2010\x86\debug" /LIBPATH:..\Code\Tools\FBXLoader\FBXLoader /LIBPATH:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\..\temp\Debug\lib\\" /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\\" d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SpatialPartition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.lib" /MACHINE:X86 Debug\SpatialPartition.exe.embed.manifest.res
+         Debug\SpatialParititionEntryPoint.obj
+         Debug\SpatialPartition.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SpatialPartition.exe.embed.manifest" /manifest Debug\SpatialPartition.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SpatialPartition.exe.embed.manifest.res" Debug\SpatialPartition_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\lib\vs2010\x86\debug" /LIBPATH:..\Code\Tools\FBXLoader\FBXLoader /LIBPATH:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\..\temp\Debug\lib\\" /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\\" d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SpatialPartition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.lib" /MACHINE:X86 Debug\SpatialPartition.exe.embed.manifest.res
+         Debug\SpatialParititionEntryPoint.obj
+         Debug\SpatialPartition.obj
+         Debug\stdafx.obj
+         SpatialPartition.vcxproj -> C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\MonsterChase\Debug\SpatialPartition.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SpatialPartition.unsuccessfulbuild".
+         Touching "Debug\SpatialPartition.lastbuildstate".
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment3.05\Code\Tools\SpatialPartition\SpatialPartition.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.93

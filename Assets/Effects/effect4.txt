@@ -1,0 +1,6 @@
+effect4
+
+  data/VertexShaders/example.vp
+  data/FragmentShaders/example.fp
+
+  None

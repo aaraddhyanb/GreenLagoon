@@ -1,0 +1,12 @@
+﻿Build started 2/13/2013 2:29:21 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\EntityBuilder\EntityBuilder.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EntityBuilder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Debug\EntityBuilder.unsuccessfulbuild".
+         Touching "Debug\EntityBuilder.lastbuildstate".
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\EntityBuilder\EntityBuilder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

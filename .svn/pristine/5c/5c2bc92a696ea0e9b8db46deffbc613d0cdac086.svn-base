@@ -1,0 +1,10 @@
+//This is a configuration file for Monster chase game
+
+ScreenHeight=900;
+ScreenWidth=1200;
+
+NumberOfMonsters=1;
+NumberOfPlayers=1;
+
+PlayerImage="player.png";
+MonsterImage="monster.png";

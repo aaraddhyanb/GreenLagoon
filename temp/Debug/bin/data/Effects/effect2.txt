@@ -1,0 +1,6 @@
+effect2
+
+data/VertexShaders/example.vp
+data/FragmentShaders/SpecularLight.fp
+
+AdditiveBlending

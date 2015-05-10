@@ -1,0 +1,4 @@
+entity2
+
+ materialKarateka
+ data/Meshes/sphere.bin

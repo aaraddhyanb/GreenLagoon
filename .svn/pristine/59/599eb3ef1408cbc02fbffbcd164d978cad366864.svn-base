@@ -1,0 +1,23 @@
+﻿Build started 2/1/2013 3:01:22 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\MeshBuilder\MeshBuilder.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MeshBuilder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Release\MeshBuilder.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\..\temp\Release\lib\\" GenericBuilder.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MeshBuilder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Release\MeshBuilder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Release\MeshBuilder.lib" /MACHINE:X86 Release\cMeshBuilder.obj
+         Release\EntryPoint.obj
+         Generating code
+         Finished generating code
+         MeshBuilder.vcxproj -> C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Release\MeshBuilder.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Release\MeshBuilder.exe;#1" /manifest Release\MeshBuilder.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MeshBuilder.unsuccessfulbuild".
+         Touching "Release\MeshBuilder.lastbuildstate".
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\MeshBuilder\MeshBuilder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

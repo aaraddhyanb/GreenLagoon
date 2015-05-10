@@ -1,0 +1,4 @@
+materialFlower
+
+  effect1
+  data/Textures/flower.png

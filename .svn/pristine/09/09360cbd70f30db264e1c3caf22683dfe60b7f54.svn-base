@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{627721c3-2663-4c80-8ccc-a801e2fa058b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{7f6fba29-742f-492a-aba9-d53dc0f1e3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{07c823b2-d5ac-43b9-8034-87b9215febef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets">
+      <UniqueIdentifier>{24939863-3eaa-4da0-b33f-c498473388ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renderer.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\small.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\..\Assets\Textures\example1.png">
+      <Filter>Texture</Filter>
+    </None>
+    <None Include="..\..\Assets\Textures\fez.png">
+      <Filter>Texture</Filter>
+    </None>
+    <None Include="..\..\Assets\Textures\wiki.png">
+      <Filter>Texture</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resources\Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialization.h" />
+    <ClInclude Include="cMainWindow.h" />
+    <ClInclude Include="Logging.h" />
+    <ClInclude Include="UserSettings.h" />
+    <ClInclude Include="cTime.h" />
+    <ClInclude Include="UserInput.h" />
+    <ClInclude Include="cRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextField.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Checkbox.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererWidgets.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialPartition.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Renderer.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMainWindow.cpp" />
+    <ClCompile Include="Logging.cpp" />
+    <ClCompile Include="UserSettings.cpp" />
+    <ClCompile Include="cTime.cpp" />
+    <ClCompile Include="UserInput.cpp" />
+    <ClCompile Include="EntryPoint.h" />
+    <ClCompile Include="cRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextField.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Checkbox.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererWidgets.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialPartition.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

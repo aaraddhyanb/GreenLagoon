@@ -1,0 +1,4 @@
+entity3
+
+ materialWizard
+ data/Meshes/sphere.bin

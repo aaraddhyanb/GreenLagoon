@@ -1,0 +1,20 @@
+﻿Build started 2/16/2013 3:56:49 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Tools\EntityBuilder\EntityBuilder.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\EntityBuilder.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cEntityBuilder.cpp EntryPoint.cpp
+         cEntityBuilder.cpp
+         EntryPoint.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Release\EntityBuilder.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\EntityBuilder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Release\EntityBuilder.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Release\EntityBuilder.lib" /MACHINE:X86 Release\cEntityBuilder.obj
+         Release\EntryPoint.obj
+     1>cEntityBuilder.obj : error LNK2001: unresolved external symbol "public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl cs6963::cbGenericBuilder::GetLastWindowsError(void)" (?GetLastWindowsError@cbGenericBuilder@cs6963@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+     1>cEntityBuilder.obj : error LNK2001: unresolved external symbol "public: void __thiscall cs6963::cbGenericBuilder::FormatAndOutputErrorMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?FormatAndOutputErrorMessage@cbGenericBuilder@cs6963@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>EntryPoint.obj : error LNK2001: unresolved external symbol "public: bool __thiscall cs6963::cbGenericBuilder::Build(int,char * *)const " (?Build@cbGenericBuilder@cs6963@@QBE_NHPAPAD@Z)
+     1>C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Release\EntityBuilder.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Tools\EntityBuilder\EntityBuilder.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.83

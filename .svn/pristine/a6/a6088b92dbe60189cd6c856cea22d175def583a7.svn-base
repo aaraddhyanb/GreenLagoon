@@ -1,0 +1,18 @@
+﻿Build started 2/13/2013 2:30:16 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\EffectBuilder\EffectBuilder.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\EffectBuilder.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\EffectBuilder.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EffectBuilder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\EffectBuilder.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\EffectBuilder.lib" /MACHINE:X86 Debug\cEffectBuilder.obj
+         Debug\EntryPoint.obj
+     1>cEffectBuilder.obj : error LNK2019: unresolved external symbol "public: void __thiscall cs6963::cbGenericBuilder::FormatAndOutputErrorMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?FormatAndOutputErrorMessage@cbGenericBuilder@cs6963@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "private: virtual bool __thiscall cs6963::cEffectBuilder::Build_derived(char const *,char const *)const " (?Build_derived@cEffectBuilder@cs6963@@EBE_NPBD0@Z)
+     1>cEffectBuilder.obj : error LNK2019: unresolved external symbol "public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl cs6963::cbGenericBuilder::GetLastWindowsError(void)" (?GetLastWindowsError@cbGenericBuilder@cs6963@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "private: virtual bool __thiscall cs6963::cEffectBuilder::Build_derived(char const *,char const *)const " (?Build_derived@cEffectBuilder@cs6963@@EBE_NPBD0@Z)
+     1>EntryPoint.obj : error LNK2019: unresolved external symbol "public: bool __thiscall cs6963::cbGenericBuilder::Build(int,char * *)const " (?Build@cbGenericBuilder@cs6963@@QBE_NHPAPAD@Z) referenced in function _main
+     1>C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\EffectBuilder.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\EffectBuilder\EffectBuilder.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.15

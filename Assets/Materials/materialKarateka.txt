@@ -1,0 +1,7 @@
+materialKarateka
+
+  effect3
+  data/Textures/example1.png
+  
+
+  alpha 0.5

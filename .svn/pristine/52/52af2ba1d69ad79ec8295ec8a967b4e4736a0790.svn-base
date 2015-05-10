@@ -1,0 +1,15 @@
+﻿Build started 2/13/2013 10:34:17 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\SceneBuilder\SceneBuilder.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\SceneBuilder.unsuccessfulbuild".
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\SceneBuilder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SceneBuilder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\SceneBuilder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\SceneBuilder.lib" /MACHINE:X86 Debug\SceneBuilder.exe.embed.manifest.res
+     1>LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+     1>C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Debug\SceneBuilder.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\RenderingFramework\Code\Tools\SceneBuilder\SceneBuilder.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

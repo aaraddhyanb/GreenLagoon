@@ -1,0 +1,7 @@
+materialWizard
+
+  effect3
+  data/Textures/example2.png
+  
+
+  alpha 0.5

@@ -1,0 +1,8 @@
+effect3
+
+  data/VertexShaders/example.vp
+  data/FragmentShaders/PartialBlending.fp
+
+  PartialBlending
+  
+  

@@ -1,0 +1,29 @@
+scene1
+
+9
+
+entity1		 0.0 0.0 -3.0		0.0
+entity2	         0.0 0.0 0.0		0.0
+entity3		 0.0 0.0 3.0		0.0
+entity4		 4.0 3.0  4.0		0.0
+entity5	         4.0  3.0 -4.0		0.0
+entity6		-4.0  0.0 4.0		0.0
+entity7		-4.0 0.0  -4.0		0.0
+entity8	         3.0  0.0 -6.0		0.0
+entity9          0.0 -3.0 3.0		0.0
+
+
+cameraPosition
+0.0 0.0 -20.0
+
+
+lightPosition
+-1.0 1.0 -1.0 1.0
+
+
+lightColor
+1 0.5 0.5
+
+lightIntensity
+5
+

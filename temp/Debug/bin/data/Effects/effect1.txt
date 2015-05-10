@@ -1,0 +1,6 @@
+effect1
+
+  data/VertexShaders/example.vp
+  data/FragmentShaders/AlphaBinaryBlending.fp
+
+  BinaryAlphaBlending

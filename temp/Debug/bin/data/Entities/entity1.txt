@@ -1,0 +1,4 @@
+entity1
+
+ materialNormalMap
+ data/Meshes/wall.bin

@@ -1,0 +1,9 @@
+materialNormalMap
+
+  effect4
+  data/Textures/stone.png
+
+  normalMap
+  data/Textures/normalMap.png
+
+ 

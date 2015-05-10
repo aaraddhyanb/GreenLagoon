@@ -1,0 +1,5 @@
+# Visual Studio
+#==============
+
+# Keep the project user settings so that debugging works
+!*.vcxproj.user

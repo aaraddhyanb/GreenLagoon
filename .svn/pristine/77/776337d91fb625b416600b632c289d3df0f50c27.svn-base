@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{588FC0C8-46B7-4700-9BC7-14DD210C80DF}</ProjectGuid>
+    <RootNamespace>GreenLagoon</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)\Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(SolutionDir)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\temp\$(Configuration)\bin;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(SolutionDir)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\temp\$(Configuration)\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)\Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\GreenLagoon\_Source\Math;..\GreenLagoon;..\GreenLagoon\External;..\GreenLagoon\_Source\GameLoop;..\GreenLagoon\_Source\GameObject;..\GreenLagoon\_Source\GameObjectController;..\GreenLagoon\_Source\Physics;..\GreenLagoon\_Source\Renderer;..\GreenLagoon\_Source\Singleton;..\GreenLagoon\_Source\Target;..\GreenLagoon\_Source\Timer;..\GreenLagoon\_Source\Utility;..\GreenLagoon\_Source\World;..\GreenLagoon\_Source\Collision;..\GreenLagoon\_Source\Container;..\GreenLagoon\image;..\MonsterChase\include;..\GreenLagoon\_Source\Messaging;..\GreenLagoon\_Source\AI;..\GreenLagoon\_Source\Audio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG_LEVEL=2;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>Renderer.lib;fmodex_vc.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\GreenLagoon\_Source\Math;..\GreenLagoon;..\GreenLagoon\External;..\GreenLagoon\_Source\GameLoop;..\GreenLagoon\_Source\GameObject;..\GreenLagoon\_Source\GameObjectController;..\GreenLagoon\_Source\Physics;..\GreenLagoon\_Source\Renderer;..\GreenLagoon\_Source\Singleton;..\GreenLagoon\_Source\Target;..\GreenLagoon\_Source\Timer;..\GreenLagoon\_Source\Utility;..\GreenLagoon\_Source\World;..\GreenLagoon\_Source\Collision;..\GreenLagoon\_Source\Container;..\GreenLagoon\_Source\Messaging</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Console</SubSystem>
+      <NoEntryPoint>false</NoEntryPoint>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalDependencies>Renderer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\GreenLagoon\_Source\Math;..\GreenLagoon;..\GreenLagoon\External;..\GreenLagoon\_Source\GameLoop;..\GreenLagoon\_Source\GameObject;..\GreenLagoon\_Source\GameObjectController;..\GreenLagoon\_Source\Physics;..\GreenLagoon\_Source\Renderer;..\GreenLagoon\_Source\Singleton;..\GreenLagoon\_Source\Target;..\GreenLagoon\_Source\Timer;..\GreenLagoon\_Source\Utility;..\GreenLagoon\_Source\World;..\GreenLagoon\_Source\Collision;..\GreenLagoon\_Source\Container;..\GreenLagoon\_Source\Messaging</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Console</SubSystem>
+      <NoEntryPoint>false</NoEntryPoint>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BB.cpp" />
+    <ClCompile Include="_Source\AI\PathFinding.cpp" />
+    <ClCompile Include="_Source\AI\WaypointsData.cpp" />
+    <ClCompile Include="_Source\Audio\SoundManager.cpp" />
+    <ClCompile Include="_Source\Collision\AABB.cpp" />
+    <ClCompile Include="_Source\Collision\Collision.cpp" />
+    <ClCompile Include="_Source\Collision\OBB.cpp" />
+    <ClCompile Include="_Source\Container\BitPool.cpp" />
+    <ClCompile Include="_Source\Container\MemoryPool.cpp" />
+    <ClCompile Include="_Source\Container\RingBuffer.cpp" />
+    <ClCompile Include="_Source\GameLoop\GameLoop.cpp" />
+    <ClCompile Include="_Source\GameObjectController\ActorController.cpp" />
+    <ClCompile Include="_Source\GameObjectController\TriggerBoxController.cpp" />
+    <ClCompile Include="_Source\GameObject\Actor.cpp" />
+    <ClCompile Include="_Source\GameObject\BoundingBox.cpp" />
+    <ClCompile Include="_Source\Math\Vector2.cpp" />
+    <ClCompile Include="_Source\Math\Vector3.cpp" />
+    <ClCompile Include="_Source\Messaging\EventHandler.cpp" />
+    <ClCompile Include="_Source\Messaging\IMessageHandler.cpp" />
+    <ClCompile Include="_Source\Physics\Physics.cpp" />
+    <ClCompile Include="_Source\Renderer\Renderer.cpp" />
+    <ClCompile Include="_Source\Singleton\Singleton.cpp" />
+    <ClCompile Include="_Source\Timer\Clock.cpp" />
+    <ClCompile Include="_Source\Timer\Profile.cpp" />
+    <ClCompile Include="_Source\Timer\Time.cpp" />
+    <ClCompile Include="_Source\World\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MonsterChase\include\libconfig.h" />
+    <ClInclude Include="BB.h" />
+    <ClInclude Include="External\Cheesy.h" />
+    <ClInclude Include="External\fmod.h" />
+    <ClInclude Include="External\fmod.hpp" />
+    <ClInclude Include="External\fmod_errors.h" />
+    <ClInclude Include="External\IReferenceCounted.h" />
+    <ClInclude Include="External\Sprite.h" />
+    <ClInclude Include="External\Text.h" />
+    <ClInclude Include="External\Texture.h" />
+    <ClInclude Include="External\Types.h" />
+    <ClInclude Include="_Source\AI\PathFinding.h" />
+    <ClInclude Include="_Source\AI\WaypointsData.h" />
+    <ClInclude Include="_Source\Audio\SoundManager.h" />
+    <ClInclude Include="_Source\Collision\AABB.h" />
+    <ClInclude Include="_Source\Collision\Collision.h" />
+    <ClInclude Include="_Source\Collision\OBB.h" />
+    <ClInclude Include="_Source\Container\BitPool.h" />
+    <ClInclude Include="_Source\Container\MemoryPool.h" />
+    <ClInclude Include="_Source\Container\RingBuffer.h" />
+    <ClInclude Include="_Source\Container\SharedPointer.h" />
+    <ClInclude Include="_Source\GameLoop\GameLoop.h" />
+    <ClInclude Include="_Source\GameObjectController\ActorController.h" />
+    <ClInclude Include="_Source\GameObjectController\TriggerBoxController.h" />
+    <ClInclude Include="_Source\GameObject\Actor.h" />
+    <ClInclude Include="_Source\GameObject\BoundingBox.h" />
+    <ClInclude Include="_Source\Math\FastVector3.h" />
+    <ClInclude Include="_Source\Math\Matrix.h" />
+    <ClInclude Include="_Source\Math\Vector2.h" />
+    <ClInclude Include="_Source\Math\Vector3.h" />
+    <ClInclude Include="_Source\Messaging\EventHandler.h" />
+    <ClInclude Include="_Source\Messaging\IMessageHandler.h" />
+    <ClInclude Include="_Source\Physics\Physics.h" />
+    <ClInclude Include="_Source\Renderer\Renderer.h" />
+    <ClInclude Include="_Source\Singleton\Singleton.h" />
+    <ClInclude Include="_Source\Target\Target.h" />
+    <ClInclude Include="_Source\Target\Target_WIN32.h" />
+    <ClInclude Include="_Source\Timer\Clock.h" />
+    <ClInclude Include="_Source\Timer\Profile.h" />
+    <ClInclude Include="_Source\Timer\Time.h" />
+    <ClInclude Include="_Source\Utility\Util.h" />
+    <ClInclude Include="_Source\World\World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\MonsterChase\config.cfg" />
+    <None Include="_Source\Container\BitPool.inl" />
+    <None Include="_Source\Container\RingBuffer.inl" />
+    <None Include="_Source\Math\FastVector3.inl" />
+    <None Include="_Source\Math\Matrix.inl" />
+    <None Include="_Source\Math\Vector2.inl" />
+    <None Include="_Source\Math\vector3.inl" />
+    <None Include="_Source\Timer\Clock.inl" />
+    <None Include="_Source\Utility\Util.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

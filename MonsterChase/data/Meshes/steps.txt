@@ -1,0 +1,5 @@
+TotalTriggers 1
+MinBB -3750.000000 -349.00 -3795.552734
+MaxBB 3750.000000 -207.000 3704.447266
+
+TotalDynamicGameObjects 0

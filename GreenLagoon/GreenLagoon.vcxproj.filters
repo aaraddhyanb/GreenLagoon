@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="_Source\Math\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\GameObject\Actor.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\GameObjectController\ActorController.cpp">
+      <Filter>GameObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Physics\Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Timer\Time.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\GameLoop\GameLoop.cpp">
+      <Filter>GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Collision\Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Timer\Clock.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Singleton\Singleton.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Container\BitPool.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Container\RingBuffer.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Container\MemoryPool.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Collision\AABB.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Math\Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Collision\OBB.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\GameObjectController\TriggerBoxController.cpp">
+      <Filter>GameObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\GameObject\BoundingBox.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Messaging\EventHandler.cpp">
+      <Filter>Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Messaging\IMessageHandler.cpp">
+      <Filter>Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Timer\Profile.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="BB.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\AI\WaypointsData.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\AI\PathFinding.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Audio\SoundManager.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Source\Math\FastVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\GameObject\Actor.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\GameObjectController\ActorController.h">
+      <Filter>GameObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Physics\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Renderer\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Singleton\Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Target\Target.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Target\Target_WIN32.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Timer\Clock.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Timer\Time.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\GameLoop\GameLoop.h">
+      <Filter>GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Utility\Util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Container\BitPool.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Container\RingBuffer.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Container\SharedPointer.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Container\MemoryPool.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Cheesy.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Types.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Texture.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Text.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Sprite.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\IReferenceCounted.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MonsterChase\include\libconfig.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Collision\AABB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Math\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Collision\OBB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\GameObjectController\TriggerBoxController.h">
+      <Filter>GameObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\GameObject\BoundingBox.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Messaging\EventHandler.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Messaging\IMessageHandler.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Timer\Profile.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="BB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\AI\WaypointsData.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\AI\PathFinding.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\fmod.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\fmod.hpp">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Audio\SoundManager.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="External\fmod_errors.h">
+      <Filter>External</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Source\Math\vector3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="_Source\Math\FastVector3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="_Source\Timer\Clock.inl">
+      <Filter>Timer</Filter>
+    </None>
+    <None Include="_Source\Utility\Util.inl">
+      <Filter>Utility</Filter>
+    </None>
+    <None Include="_Source\Container\BitPool.inl">
+      <Filter>Container</Filter>
+    </None>
+    <None Include="_Source\Container\RingBuffer.inl">
+      <Filter>Container</Filter>
+    </None>
+    <None Include="_Source\Math\Matrix.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\MonsterChase\config.cfg">
+      <Filter>External</Filter>
+    </None>
+    <None Include="_Source\Math\Vector2.inl">
+      <Filter>Math</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{af79a0f9-4333-4783-844b-6a1c4726b9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{81b51075-a940-4578-91c5-b4339dc39480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{901b6646-5d03-4946-8236-ce15c5a8859f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{4847889d-c4d2-4c64-ae23-5b48dd8f570b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjectController">
+      <UniqueIdentifier>{a64d3ff0-63f8-408a-b326-a74665de1eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLoop">
+      <UniqueIdentifier>{7fe1f5bb-393e-4c0d-bb2d-ba3a40d2f335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{0da301d6-a015-4848-8fff-ffe438b1827e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Target">
+      <UniqueIdentifier>{f9728c7e-4242-40fc-9deb-731e69473ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{c6db2f33-9bdb-4724-b919-72a59dca42a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{ffb7b91c-d189-435b-9c72-dd5bd7b39b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{f3028a6a-b5e4-481d-9fea-db94179ce675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{1a570709-f2da-42b7-a027-d8734459f778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{e208d272-9aa2-408a-94f9-561acaca2dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging">
+      <UniqueIdentifier>{233512ff-62ec-49ce-ab20-5d54ccbd4ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{83ab84be-5718-49a3-b21b-715a29ae07b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{66d5f457-2922-4148-86d0-ee9395da07d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{b2a2c50e-8116-4049-a902-84125fac3d37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

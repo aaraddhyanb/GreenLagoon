@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD809C28-BE6C-4B91-AA3A-77912A701F9B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MonsterChase</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(DXSDK_DIR)\Include;..\MonsterChase\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;..\MonsterChase\include;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;..\MonsterChase\include;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)\Include;..\MonsterChase\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;DEBUG_LEVEL=0;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GreenLagoon\_Source\Math;..\GreenLagoon;..\GreenLagoon\External;..\GreenLagoon\_Source\GameLoop;..\GreenLagoon\_Source\GameObject;..\GreenLagoon\_Source\GameObjectController;..\GreenLagoon\_Source\Physics;..\GreenLagoon\_Source\Renderer;..\GreenLagoon\_Source\Singleton;..\GreenLagoon\_Source\Target;..\GreenLagoon\_Source\Timer;..\GreenLagoon\_Source\Utility;..\GreenLagoon\_Source\World;..\GreenLagoon\_Source\Collision;..\GreenLagoon\_Source\Container;..\GreenLagoon\_Source\Messaging;..\GreenLagoon\_Source\Audio;..\GreenLagoon\_Source\AI</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vld.lib;GreenLagoon.lib;d3dx9.lib;dxerr.lib;comctl32.lib;vld.lib;libconfig_d.lib;d3dx9d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GreenLagoon\_Source\Math;..\GreenLagoon;..\GreenLagoon\External;..\GreenLagoon\_Source\GameLoop;..\GreenLagoon\_Source\GameObject;..\GreenLagoon\_Source\GameObjectController;..\GreenLagoon\_Source\Physics;..\GreenLagoon\_Source\Renderer;..\GreenLagoon\_Source\Singleton;..\GreenLagoon\_Source\Target;..\GreenLagoon\_Source\Timer;..\GreenLagoon\_Source\Utility;..\GreenLagoon\_Source\World;..\GreenLagoon\_Source\Collision;\include;..\GreenLagoon\_Source\Container;..\GreenLagoon\_Source\Messaging</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>vld.lib;GreenLagoon.lib;d3dx9d.lib;dxerr.lib;comctl32.lib;libconfig.lib;Cheesy_Release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_PROFILE;NDEBUG;DEBUG_LEVEL=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GreenLagoon\_Source\Math;..\GreenLagoon;..\GreenLagoon\External;..\GreenLagoon\_Source\GameLoop;..\GreenLagoon\_Source\GameObject;..\GreenLagoon\_Source\GameObjectController;..\GreenLagoon\_Source\Physics;..\GreenLagoon\_Source\Renderer;..\GreenLagoon\_Source\Singleton;..\GreenLagoon\_Source\Target;..\GreenLagoon\_Source\Timer;..\GreenLagoon\_Source\Utility;..\GreenLagoon\_Source\World;..\GreenLagoon\_Source\Collision;\include;..\GreenLagoon\_Source\Container;..\GreenLagoon\_Source\Messaging</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>vld.lib;GreenLagoon.lib;d3dx9d.lib;dxerr.lib;comctl32.lib;libconfig.lib;Cheesy_Release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="JumpTrigger.cpp" />
+    <ClCompile Include="MonsterTrigger.cpp" />
+    <ClCompile Include="PlayerCollisionFlagController.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="SmartAIController.cpp" />
+    <ClCompile Include="PlayerTrigger.cpp" />
+    <ClCompile Include="StairTrigger.cpp" />
+    <ClCompile Include="UnitTest.cpp" />
+    <ClCompile Include="WorldController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="JumpTrigger.h" />
+    <ClInclude Include="MonsterTrigger.h" />
+    <ClInclude Include="PlayerCollisionFlagController.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="SmartAIController.h" />
+    <ClInclude Include="PlayerTrigger.h" />
+    <ClInclude Include="StairTrigger.h" />
+    <ClInclude Include="UnitTest.h" />
+    <ClInclude Include="WorldController.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

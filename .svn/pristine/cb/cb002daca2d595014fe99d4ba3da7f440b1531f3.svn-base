@@ -1,0 +1,15 @@
+﻿Build started 2/16/2013 3:56:49 PM.
+     1>Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Tools\SceneBuilder\SceneBuilder.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\SceneBuilder.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cSceneBuilder.cpp EntryPoint.cpp
+         cSceneBuilder.cpp
+     1>cSceneBuilder.cpp(14): error C2664: 'CopyFileW' : cannot convert parameter 1 from 'const char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         EntryPoint.cpp
+     1>Done Building Project "C:\Users\Aaraddhya\Documents\Visual Studio 2010\Projects\Assignment4\RenderingFramework\Code\Tools\SceneBuilder\SceneBuilder.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.56
